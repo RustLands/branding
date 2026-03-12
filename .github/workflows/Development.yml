@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - Development
-    paths:
-      - 'Linking Site/**'
-      - '.github/workflows/**'
 
 jobs:
   deploy:
